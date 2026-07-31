@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support / サポート — SnoreTrace</title>
+<meta name="description" content="SnoreTrace support. Ask questions and report issues through GitHub Issues, plus answers on where recordings are kept, sounds from others in the room, battery, and restoring a purchase.">
+<style>
+  :root{
+    color-scheme: light dark;
+    --bg:#ffffff; --fg:#1a1a1a; --link:#0a5aa8; --muted:#5a5f66; --rule:#767676; --card:#f4f6f8;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --bg:#121212; --fg:#e8e8e8; --link:#7fc4ff; --muted:#a9b0b8; --rule:#767676; --card:#1c1f22; }
+  }
+  body{ background:var(--bg); color:var(--fg);
+        font-family:-apple-system,"Hiragino Sans",system-ui,sans-serif; line-height:1.8;
+        max-width:720px; margin:0 auto; padding:24px; }
+  h1{ font-size:1.5rem; line-height:1.45; }
+  h2{ font-size:1.2rem; margin-top:2.2em; border-bottom:1px solid var(--rule); padding-bottom:.2em; }
+  h3{ font-size:1.05rem; margin-top:1.7em; }
+  h4{ font-size:1rem; margin-top:1.4em; }
+  a{ color:var(--link); }
+  /* opacity は使わない: 祖先の opacity は子孫リンクの実効コントラストまで下げるため（色で表現する） */
+  .muted{ color:var(--muted); }
+  hr{ border:none; border-top:1px solid var(--rule); margin:2.5em 0; }
+  nav{ font-size:.95rem; }
+  nav.site{ margin-bottom:.3em; }
+  nav.lang{ margin-bottom:2em; }
+  .cta{ display:inline-block; padding:.6em 1.2em; border:1px solid var(--rule); border-radius:10px;
+        text-decoration:none; font-weight:600; margin:.4em 0; }
+  .notice{ background:var(--card); border-left:4px solid var(--rule); border-radius:8px;
+           padding:.4em 1em; margin:2.5em 0; }
+  ul{ padding-left:1.2em; }
+</style>
+</head>
+<body>
+<h1>Support / サポート — SnoreTrace</h1>
+
+<nav class="site"><a href="./index.html">Home / トップ</a> ・ <a href="./privacy.html">Privacy / プライバシー</a> ・ <a href="./terms.html">Terms / 利用規約</a> ・ <a href="./support.html">Support / サポート</a></nav>
+<nav class="lang"><a href="#en">English</a> | <a href="#ja">日本語</a></nav>
+
+<section id="en" lang="en">
+<h2>English</h2>
+<p class="muted">Last updated: 2026-07-31</p>
+
+<h3>Contact</h3>
+<p>Bug reports, feature requests, and questions all go to the same place. We read everything that arrives there and reply on the issue itself.</p>
+<p><a class="cta" href="https://github.com/TodaMasao/snoretrace-legal/issues/new">Ask a question / report an issue (GitHub Issues)</a></p>
+<p class="muted">A GitHub account is required to open an issue. If you do not have one, you can create it in a few minutes.</p>
+
+<h3>Frequently asked questions</h3>
+
+<h4>Where are my recordings stored?</h4>
+<p>Only inside the app's own area on your device. Nothing is uploaded, and the developer cannot reach any of it. See the <a href="./privacy.html">Privacy Policy</a> for details.</p>
+
+<h4>Will other people in the room be recorded?</h4>
+<p>They may be. The microphone captures whatever is audible in the room, so the voice or breathing of anyone sharing it with you can end up in the recording. Please tell them before you start. Everything recorded stays on your device.</p>
+
+<h4>Does the app need a network connection?</h4>
+<p>No. Recording and reviewing work with no network access at all — the app contains no networking code. The App Store still needs a connection when you buy or restore an in-app purchase, but that part is handled by iOS, not by the app.</p>
+
+<h4>Recording all night uses a lot of battery.</h4>
+<p>Running the microphone for a whole night does consume a noticeable amount of battery, which is normal for this kind of app. Recording with the iPhone connected to a charger is the most comfortable way to use it.</p>
+
+<h4>How do I restore my purchase?</h4>
+<p>Use the "Restore Purchases" option inside the app while signed in with the same Apple Account you used for the purchase. If it still does not come back, please open an issue at the link above.</p>
+
+<h4>Can I move my data to a new iPhone?</h4>
+<p>Yes, through iPhone Quick Start or a full iCloud or Finder backup transfer, which carries the app's on-device files along with everything else. The app has no cloud sync of its own.</p>
+
+<h4>How should I report a problem?</h4>
+<p>Open an issue at the link above and include your iPhone model, your iOS version, and what you were doing when the problem happened. That is usually enough to reproduce it.</p>
+</section>
+
+<hr>
+
+<section id="ja" lang="ja">
+<h2>日本語</h2>
+<p class="muted">最終更新日: 2026-07-31</p>
+
+<h3>お問い合わせ窓口</h3>
+<p>不具合のご報告・ご要望・ご質問は、すべて以下の窓口で受け付けています。いただいた内容はすべて確認し、そのIssue上で返信します。</p>
+<p><a class="cta" href="https://github.com/TodaMasao/snoretrace-legal/issues/new">サポート窓口に質問・報告する（GitHub Issues）</a></p>
+<p class="muted">Issueの作成にはGitHubアカウントが必要です。お持ちでない場合は数分で作成できます。</p>
+
+<h3>よくある質問</h3>
+
+<h4>録音データはどこに保存されますか？</h4>
+<p>お使いの端末内のアプリ領域にのみ保存されます。外部への送信はなく、開発者がアクセスすることもできません。詳しくは<a href="./privacy.html">プライバシーポリシー</a>をご覧ください。</p>
+
+<h4>同室の人の音も録音されますか？</h4>
+<p>録音されることがあります。マイクは部屋で聞こえる音をそのまま拾うため、同室の方の声や寝息が録音に含まれる場合があります。録音を始める前にひとことお伝えください。録音された内容はすべて端末内にとどまります。</p>
+
+<h4>通信は必要ですか？</h4>
+<p>いいえ。録音も振り返りも通信なしで動作します（本アプリには通信を行うコードがありません）。App内課金の購入と復元のときだけApp Storeとの通信が必要ですが、その部分はアプリではなくiOSが行います。</p>
+
+<h4>一晩録音すると電池がかなり減ります。</h4>
+<p>一晩マイクを動かし続けるため、電池は相応に消費します（この種のアプリでは通常の挙動です）。充電器につないだ状態での録音が、いちばん安心してお使いいただける方法です。</p>
+
+<h4>購入を復元するには？</h4>
+<p>購入時と同じApple Accountでサインインした状態で、アプリ内の「購入を復元」をお試しください。それでも戻らない場合は、上記の窓口からご連絡ください。</p>
+
+<h4>機種変更でデータは引き継げますか？</h4>
+<p>iPhoneのクイックスタート、またはiCloud／Finderによる端末全体のバックアップ移行で、アプリの端末内ファイルもまとめて引き継がれます（アプリ独自のクラウド同期はありません）。</p>
+
+<h4>不具合はどう報告すればよいですか？</h4>
+<p>上記の窓口から、iPhoneの機種・iOSのバージョン・発生時に何をしていたかを添えてお知らせください。再現の手がかりとしてはこれで十分なことがほとんどです。</p>
+</section>
+
+<aside class="notice">
+<p lang="en">This app is not a medical device and is not intended for diagnosis or treatment. If you have concerns about snoring or sleep, please consult a physician.</p>
+<p lang="ja">本アプリは医療機器ではなく、診断・治療を目的とするものではありません。いびきや睡眠について気になることがある場合は、医師にご相談ください。</p>
+</aside>
+
+<p class="muted">© 2026 SnoreTrace</p>
+</body>
+</html>
